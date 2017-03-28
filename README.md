@@ -40,13 +40,16 @@ Only official [Decred release binaries](https://github.com/decred/decred-release
 This Decred Docker image can be used to create containers that can start each of the included executables (dcrd, dcrwallet, ...).
 
 The image can be used as follow:
+
 ```console
-$ docker run -it jpbriquet/decred:latest DECRED_COMMAND
+$ docker build  -t nolim1t/decred .
+$ docker run -it nolim1t/decred dcrd
 ```
 
-e.g. :
+Or with screen
+
 ```console
-$ docker run -it jpbriquet/decred:latest dcrd
+$ screen docker run -it nolim1t/decred dcrd
 ```
 
 
