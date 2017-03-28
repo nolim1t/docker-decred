@@ -1,4 +1,4 @@
-This is the the [Docker image](https://hub.docker.com/r/jpbriquet/decred/) for [Decred cryptocurrency releases](https://github.com/decred/decred-release).
+This is a fork of [jpbriquet/docker-decred](https://github.com/jpbriquet/docker-decred) 's project so I can play around with it.
 
 # What is Decred?
 
